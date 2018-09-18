@@ -15,14 +15,14 @@ No need to manually deploy jars anymore!!!
 
 3.Run the shell script Flying_flink.sh using the command below.
 
-./Flying_flink.sh 2 scala-flink-test-1.0.0-jar-with-dependencies.jar
+./Flying_flink.sh 2 pyflinkjob.py
 
 Arguments:
 
 arg1:Number of Flink Worker Nodes you want to allot.
 
-arg2:The jar file which you want to deploy to the flink cluster.
+arg2:The python code or job which Does the Flink Steaming which are synonymous  which you want to deploy to the flink cluster.
 
 Go to your localhost:8077 to view the flink cluster.
 
-Now Testing your Flink Application is just FUN!!
+Now Testing your Python-based Flink Streaming Application is just FUN!!
